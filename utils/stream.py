@@ -5,7 +5,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load a pretrained YOLO model
-model = YOLO('pretrained_models/yolov8n.pt')
+model = YOLO('../pretrained_models/yolov8n.pt')
 
 # Stream the video from the RTMP server
 stream_url = "rtmp://127.0.0.1//"
