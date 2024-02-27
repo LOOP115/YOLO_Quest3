@@ -1,11 +1,10 @@
 # Description: This script streams the video from the RTMP server and runs YOLOv8 inference on the frames.
 
-import time
 import cv2
 from ultralytics import YOLO
 
-# Load a pretrained YOLO model
-model = YOLO('../pretrained_models/yolov8n.pt')
+# Load a YOLO model
+model = YOLO("../models/custom/cube100.pt")
 
 # Stream the video from the RTMP server
 stream_url = "rtmp://127.0.0.1//"
@@ -25,20 +24,11 @@ while cap.isOpened():
     if not success:
         break
 
-    start = time.perf_counter()
-
     # Run YOLOv8 inference on the frame
     results = model(frame)
 
-    end = time.perf_counter()
-    total_time = end - start
-    fps = 1 / total_time
-
     # Visualize the results on the frame
     annotated_frame = results[0].plot()
-
-    # Add the FPS to the frame
-    # cv2.putText(annotated_frame, f'FPS: {int(fps)}', (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
 
     # Display the frame with the results
     cv2.imshow('frame', annotated_frame)

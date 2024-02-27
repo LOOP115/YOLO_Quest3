@@ -1,5 +1,8 @@
 .idea
 *.DS_Store
 
-pretrained_models
-dataset_raw
+temp
+datasets
+datasets_raw
+
+models/yolov8n.pt

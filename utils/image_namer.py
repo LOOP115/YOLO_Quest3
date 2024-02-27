@@ -1,7 +1,7 @@
 import os
 
 
-def rename_images(start_number, folder_path):
+def rename_images(start_number, folder_path, prefix=""):
     # Convert start_number to an integer to ensure proper increment
     current_number = int(start_number)
 
@@ -14,7 +14,7 @@ def rename_images(start_number, folder_path):
     for file in files:
         # Construct the new file name using the current number, preserving the file extension
         file_extension = os.path.splitext(file)[1]
-        new_file_name = f"{str(current_number).zfill(3)}{file_extension}"
+        new_file_name = f"{prefix}{str(current_number).zfill(3)}{file_extension}"
 
         # Construct full old and new file paths
         old_file_path = os.path.join(folder_path, file)
@@ -29,6 +29,7 @@ def rename_images(start_number, folder_path):
 
 
 # Example usage
-folder = "../dataset_raw/EVABlocks"
+folder = "../temp"
 start = "001"
-rename_images(start, folder)
+pre = "cube"
+rename_images(start, folder, pre)
