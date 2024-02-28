@@ -2,7 +2,7 @@
 
 
 
-### **Casting Meta Quest 3 View**
+## **Casting Meta Quest 3 View**
 
 - Developer Hub - Beta Cast 2.0
 - Add the casting window to [OBS](https://obsproject.com/) sources
@@ -21,11 +21,11 @@
 
 
 
-### [YOLOv8](https://docs.ultralytics.com/)
+## [YOLOv8](https://docs.ultralytics.com/)
 
-#### [**GitHub**](https://github.com/ultralytics/ultralytics)
+### [**GitHub**](https://github.com/ultralytics/ultralytics)
 
-#### Resources
+### Resources
 
 - YouTube
   - [Ultralytics YOLOv8](https://www.youtube.com/playlist?list=PL1FZnkj4ad1PFJTjW4mWpHZhzgJinkNV0)
@@ -46,7 +46,7 @@
 
 
 
-#### Installation
+### Installation
 
 * Install [Anaconda](https://www.anaconda.com/download)
 * `conda create --name yolov8 python=3.8`
@@ -57,15 +57,15 @@
 
 
 
-#### Dataset - EVA Block
+### Dataset - EVA Block
 
 <img src="docs\evablock1.png" alt="evablock1"  />
 
 
 
-##### Cubic100: 100 images of cubes and cuboids
+#### Cubic100: 100 images of cubes and cuboids
 
-##### Classes
+#### Classes
 
 - cube
 - cuboid-a
@@ -74,22 +74,23 @@
 
 
 
-##### Preprocessing
+#### Preprocessing
 
 - Auto-Orient
 - Resize: Stretch to 640 * 640
 
 
 
-##### Augmentation
+#### Augmentation
 
 - Flip: Horizontal
 - Rotation: Between -15 and +15
 
 
 
-##### Dataset Split
+#### Dataset Split
 
 - Train: 209
 - Valid: 20
 - Test: 10
+
