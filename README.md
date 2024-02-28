@@ -57,9 +57,9 @@
 
 
 
-### Dataset - EVA Block
+### [Dataset](datasets_zip) - EVA Block
 
-<img src="docs\evablock1.png" alt="evablock1"  />
+<img src="docs/img/evablock1.png" alt="evablock1"  />
 
 
 
@@ -67,30 +67,27 @@
 
 #### Classes
 
-- cube
-- cuboid-a
-- cuboid-b
-- cuboid-c
+<img src="F:\MCS_YOLOv8\docs\img\Cubic100-classes.png" alt="Cubic100-classes"  />
 
 
 
-#### Preprocessing
-
-- Auto-Orient
-- Resize: Stretch to 640 * 640
-
-
-
-#### Augmentation
-
-- Flip: Horizontal
-- Rotation: Between -15 and +15
+| Preprocessing                                 | Augmentation                                        | Train | Valid | Split |
+| --------------------------------------------- | --------------------------------------------------- | ----- | ----- | ----- |
+| Auto-Orient<br />Resize: Stretch to 640 * 640 | Flip: Horizontal<br />Rotation: Between -15 and +15 | 209   | 20    | 10    |
 
 
 
-#### Dataset Split
+### [Train Custom Models](models/custom)
 
-- Train: 209
-- Valid: 20
-- Test: 10
+| Model           | Dataset  | Pretrained | Epochs | Size |
+| --------------- | -------- | ---------- | ------ | ---- |
+| Cubic100-v8n.pt | Cubic100 | yolov8n.pt | 100    | 640  |
+
+
+
+### Evaluation
+
+| Model                                       |      |      |      |
+| ------------------------------------------- | ---- | ---- | ---- |
+| [Cubic100-v8n.pt](models/runs/detect/train) |      |      |      |
 
