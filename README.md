@@ -67,7 +67,7 @@
 
 #### Classes
 
-<img src="F:\MCS_YOLOv8\docs\img\Cubic100-classes.png" alt="Cubic100-classes"  />
+<img src="docs/img/Cubic100-classes.png" alt="Cubic100-classes"  />
 
 
 
