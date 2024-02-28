@@ -30,12 +30,19 @@
 - YouTube
   - [Ultralytics YOLOv8](https://www.youtube.com/playlist?list=PL1FZnkj4ad1PFJTjW4mWpHZhzgJinkNV0)
   - [YOLOv8 Tutorial](https://www.youtube.com/playlist?list=PLZCA39VpuaZZ1cjH4vEIdXIb0dCpZs3Y5)
+  
 - Colab
   - [YOLOv8 Tutorial](https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb#scrollTo=ZY2VXXXu74w5)
   - [How to Train YOLOv8 Object Detection on a Custom Dataset](https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb)
 
 - Prepare the dataset
-  - [roboflow](https://app.roboflow.com/)
+  
+  - Shot with iPhone
+  - Compressed to 1280 * 1280
+  
+  - Annotation
+    - [roboflow](https://app.roboflow.com/)
+    - review
 
 
 
@@ -50,3 +57,39 @@
 
 
 
+#### Dataset - EVA Block
+
+<img src="docs\evablock1.png" alt="evablock1"  />
+
+
+
+##### Cubic100: 100 images of cubes and cuboids
+
+##### Classes
+
+- cube
+- cuboid-a
+- cuboid-b
+- cuboid-c
+
+
+
+##### Preprocessing
+
+- Auto-Orient
+- Resize: Stretch to 640 * 640
+
+
+
+##### Augmentation
+
+- Flip: Horizontal
+- Rotation: Between -15 and +15
+
+
+
+##### Dataset Split
+
+- Train: 209
+- Valid: 20
+- Test: 10

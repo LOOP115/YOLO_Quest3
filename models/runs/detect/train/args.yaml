@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: ../datasets/cube100/data.yaml
+data: ../datasets/Cubic100/data.yaml
 epochs: 100
 time: null
 patience: 100
