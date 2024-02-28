@@ -13,7 +13,7 @@
   - `rtmp://127.0.0.1//<Stream Key>`
 - Output Settings
   - Video Bitrate: 1800 Kbps
-  - Audio Bitrate: 64 (min)
+  - Audio Bitrate: 64
   - Encoder Preset: Fastest
 - Video Settings
   - Resolution: 1280 * 1280
