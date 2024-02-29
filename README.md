@@ -81,15 +81,19 @@
 
 ### [Train Custom Models](models/custom)
 
-| Model           | Dataset  | Pretrained model | epochs | size |
-| --------------- | -------- | ---------------- | ------ | ---- |
-| Cubic100-v8n.pt | Cubic100 | yolov8n.pt       | 100    | 640  |
+| Model   | dataset  | epochs | Size | results                                         |
+| ------- | -------- | ------ | ---- | ----------------------------------------------- |
+| yolov8n | Cubic100 | 100    | 640  | [cubic100-v8n](models/runs/detect/cubic100-v8n) |
+| yolov8s | Cubic100 | 100    | 640  | [cubic100-v8s](models/runs/detect/cubic100-v8s) |
 
 
 
 ### Performance
 
-| Model                                    | size<br />(pixels) | mAP<sup>val</sup><br />50-95 | Speed<br />(ms) | params(M) | FLOPs<br />(B) |
-| ---------------------------------------- | ------------------ | ---------------------------- | --------------- | --------- | -------------- |
-| [Cubic100-v8n](models/runs/detect/train) | 640                |                              |                 | 3.2       | 8.7            |
+##### Device: NVIDIA GeForce RTX 4080 Laptop GPU
+
+| Model                                           | size<br />(pixels) | mAP<sup>val</sup><br />50-95 | preprocess<br />(ms) | inference<br />(ms) | postprocess<br />(ms) | params(M) | FLOPs<br />(B) |
+| ----------------------------------------------- | ------------------ | ---------------------------- | -------------------- | ------------------- | --------------------- | --------- | -------------- |
+| [cubic100-v8n](models/runs/detect/cubic100-v8n) | 640                | 0.927                        | 0.1                  | 0.9                 | 0.6                   | 3.2       | 8.7            |
+| [cubic100-v8s](models/runs/detect/cubic100-v8s) | 640                | 0.937                        | 0.2                  | 1.9                 | 0.6                   | 11.2      | 28.6           |
 

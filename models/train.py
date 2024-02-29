@@ -2,9 +2,13 @@
 
 from ultralytics import YOLO
 
-# Load a model
-model = YOLO("yolov8n.pt")  # load a pretrained model
+
+data_yaml = "../datasets/Cubic100/data.yaml"  # path to the data.yaml file
+
+# Load a pretrained model
+# model = YOLO("yolov8n.pt")
+model = YOLO("yolov8s.pt")
 
 if __name__ == '__main__':
     # Train the model
-    results = model.train(data="../datasets/Cubic100/data.yaml", epochs=100, imgsz=640, plots=True)
+    results = model.train(data=data_yaml, epochs=100, imgsz=640, plots=True)

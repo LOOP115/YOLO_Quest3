@@ -6,3 +6,4 @@ datasets
 datasets_raw
 
 models/yolov8n.pt
+models/yolov8s.pt

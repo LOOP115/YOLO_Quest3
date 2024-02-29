@@ -1,3 +1,5 @@
+# Description: This script renames all files in a folder to a specified format.
+
 import os
 
 
