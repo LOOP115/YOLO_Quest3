@@ -16,7 +16,7 @@
   - Audio Bitrate: 64
   - Encoder Preset: Fastest
 - Video Settings
-  - Resolution: 1280 * 1280
+  - Resolution: 1280 &times; 1280
   - FPS: 30
 
 
@@ -30,19 +30,10 @@
 - YouTube
   - [Ultralytics YOLOv8](https://www.youtube.com/playlist?list=PL1FZnkj4ad1PFJTjW4mWpHZhzgJinkNV0)
   - [YOLOv8 Tutorial](https://www.youtube.com/playlist?list=PLZCA39VpuaZZ1cjH4vEIdXIb0dCpZs3Y5)
-  
 - Colab
   - [YOLOv8 Tutorial](https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb#scrollTo=ZY2VXXXu74w5)
   - [How to Train YOLOv8 Object Detection on a Custom Dataset](https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb)
-
-- Prepare the dataset
-  
-  - Shot with iPhone
-  - Compressed to 1280 * 1280
-  
-  - Annotation
-    - [roboflow](https://app.roboflow.com/)
-    - review
+- [YOLOv8 Models](https://docs.ultralytics.com/models/yolov8/#overview)
 
 
 
@@ -57,7 +48,20 @@
 
 
 
-### [Dataset](datasets_zip) - EVA Block
+## [Dataset](datasets_zip)
+
+### Preparation
+
+- Shot with iPhone
+- Compressed to 1280 &times; 1280
+
+- Annotation
+  - [roboflow](https://app.roboflow.com/)
+  - Secondary check
+
+
+
+### EVA Block
 
 <img src="docs/img/evablock1.png" alt="evablock1"  />
 
@@ -69,25 +73,23 @@
 
 <img src="docs/img/Cubic100-classes.png" alt="Cubic100-classes"  />
 
-
-
-| Preprocessing                                 | Augmentation                                        | Train | Valid | Split |
-| --------------------------------------------- | --------------------------------------------------- | ----- | ----- | ----- |
-| Auto-Orient<br />Resize: Stretch to 640 * 640 | Flip: Horizontal<br />Rotation: Between -15 and +15 | 209   | 20    | 10    |
+| Preprocessing                                       | Augmentation                                                 | Train | Valid | Split |
+| --------------------------------------------------- | ------------------------------------------------------------ | ----- | ----- | ----- |
+| Auto-Orient<br />Resize: Stretch to 640 &times; 640 | Flip: Horizontal<br />Rotation: Between -15&deg; and +15&deg; | 209   | 20    | 10    |
 
 
 
 ### [Train Custom Models](models/custom)
 
-| Model           | Dataset  | Pretrained | Epochs | Size |
-| --------------- | -------- | ---------- | ------ | ---- |
-| Cubic100-v8n.pt | Cubic100 | yolov8n.pt | 100    | 640  |
+| Model           | Dataset  | Pretrained model | epochs | size |
+| --------------- | -------- | ---------------- | ------ | ---- |
+| Cubic100-v8n.pt | Cubic100 | yolov8n.pt       | 100    | 640  |
 
 
 
-### Evaluation
+### Performance
 
-| Model                                       |      |      |      |
-| ------------------------------------------- | ---- | ---- | ---- |
-| [Cubic100-v8n.pt](models/runs/detect/train) |      |      |      |
+| Model                                    | size<br />(pixels) | mAP<sup>val</sup><br />50-95 | Speed<br />(ms) | params(M) | FLOPs<br />(B) |
+| ---------------------------------------- | ------------------ | ---------------------------- | --------------- | --------- | -------------- |
+| [Cubic100-v8n](models/runs/detect/train) | 640                |                              |                 | 3.2       | 8.7            |
 
