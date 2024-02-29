@@ -92,8 +92,8 @@
 
 ##### Device: NVIDIA GeForce RTX 4080 Laptop GPU
 
-| Model                                           | size<br />(pixels) | mAP<sup>val</sup><br />50-95 | preprocess<br />(ms) | inference<br />(ms) | postprocess<br />(ms) | params(M) | FLOPs<br />(B) |
-| ----------------------------------------------- | ------------------ | ---------------------------- | -------------------- | ------------------- | --------------------- | --------- | -------------- |
-| [cubic100-v8n](models/runs/detect/cubic100-v8n) | 640                | 0.927                        | 0.1                  | 0.9                 | 0.6                   | 3.2       | 8.7            |
-| [cubic100-v8s](models/runs/detect/cubic100-v8s) | 640                | 0.937                        | 0.2                  | 1.9                 | 0.6                   | 11.2      | 28.6           |
+| Model                                                        | size<br />(pixels) | mAP<sup>val</sup><br />50-95 | preprocess<br />(ms) | inference<br />(ms) | postprocess<br />(ms) | params(M) | FLOPs<br />(B) |
+| ------------------------------------------------------------ | ------------------ | ---------------------------- | -------------------- | ------------------- | --------------------- | --------- | -------------- |
+| [cubic100-v8n](https://www.youtube.com/watch?v=XrV9wmnmguc&list=PLGZ6M30GmbVM7x_OCORl0q7Z4LuDY4KiY&index=1) | 640                | 0.927                        | 0.1                  | 0.9                 | 0.6                   | 3.2       | 8.7            |
+| [cubic100-v8s](https://www.youtube.com/watch?v=stGOMXj_bpk&list=PLGZ6M30GmbVM7x_OCORl0q7Z4LuDY4KiY&index=2) | 640                | 0.937                        | 0.2                  | 1.9                 | 0.6                   | 11.2      | 28.6           |
 
