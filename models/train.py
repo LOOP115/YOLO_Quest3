@@ -6,8 +6,7 @@ from ultralytics import YOLO
 data_yaml = "../datasets/Cubic100/data.yaml"  # path to the data.yaml file
 
 # Load a pretrained model
-# model = YOLO("yolov8n.pt")
-model = YOLO("yolov8s.pt")
+model = YOLO("yolov8m.pt")
 
 if __name__ == '__main__':
     # Train the model

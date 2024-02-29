@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 
 # Load a YOLO model
-model = YOLO("../models/custom/cubic100-v8s.pt")
+model = YOLO("../models/custom/cubic100-v8m.pt")
 
 # Stream the video from the RTMP server
 stream_url = "rtmp://127.0.0.1//"

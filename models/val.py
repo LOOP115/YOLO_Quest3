@@ -6,8 +6,7 @@ from ultralytics import YOLO
 data_yaml = "../datasets/Cubic100/data.yaml"  # path to the data.yaml file
 
 # Load a model
-# model = YOLO("custom/cubic100-v8n.pt")
-model = YOLO("custom/cubic100-v8s.pt")
+model = YOLO("custom/cubic100-v8m.pt")
 
 if __name__ == '__main__':
     metrics = model.val(data=data_yaml)  # no arguments needed, dataset and settings remembered

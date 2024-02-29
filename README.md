@@ -5,6 +5,9 @@
 ## **Casting Meta Quest 3 View**
 
 - Developer Hub - Beta Cast 2.0
+  - Original (1:1)
+  - Left Eye
+
 - Add the casting window to [OBS](https://obsproject.com/) sources
 - Stream settings
   - Server: `rtmp://127.0.0.1`
@@ -85,6 +88,7 @@
 | ------- | -------- | ------ | ---- | ----------------------------------------------- |
 | yolov8n | Cubic100 | 100    | 640  | [cubic100-v8n](models/runs/detect/cubic100-v8n) |
 | yolov8s | Cubic100 | 100    | 640  | [cubic100-v8s](models/runs/detect/cubic100-v8s) |
+| yolov8m | Cubic100 | 100    | 640  | [cubic100-v8m](models/runs/detect/cubic100-v8m) |
 
 
 
@@ -96,4 +100,5 @@
 | ------------------------------------------------------------ | ------------------ | ---------------------------- | -------------------- | ------------------- | --------------------- | --------- | -------------- |
 | [cubic100-v8n](https://www.youtube.com/watch?v=XrV9wmnmguc&list=PLGZ6M30GmbVM7x_OCORl0q7Z4LuDY4KiY&index=1) | 640                | 0.927                        | 0.1                  | 0.9                 | 0.6                   | 3.2       | 8.7            |
 | [cubic100-v8s](https://www.youtube.com/watch?v=stGOMXj_bpk&list=PLGZ6M30GmbVM7x_OCORl0q7Z4LuDY4KiY&index=2) | 640                | 0.937                        | 0.2                  | 1.9                 | 0.6                   | 11.2      | 28.6           |
+| [cubic100-v8m](https://www.youtube.com/watch?v=ShZzQ32Dk94&list=PLGZ6M30GmbVM7x_OCORl0q7Z4LuDY4KiY&index=3) | 640                | 0.995                        | 0.1                  | 4.3                 | 0.5                   | 25.9      | 78.9           |
 

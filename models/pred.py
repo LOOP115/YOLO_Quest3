@@ -4,8 +4,7 @@ from ultralytics import YOLO
 
 
 # Load a model
-# model = YOLO("custom/cubic100-v8n.pt")
-model = YOLO("custom/cubic100-v8s.pt")
+model = YOLO("custom/cubic100-v8m.pt")
 
 # Run batched inference on a list of images
 path_raw = "../datasets_raw/EVABlocks/cube/cube"
