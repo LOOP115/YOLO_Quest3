@@ -98,12 +98,11 @@
 
 ##### Device: NVIDIA GeForce RTX 4090
 
-|                            Model                             | mAP<sup>val</sup><br />50-95 | preprocess<br />(ms) | inference<br />(ms) | postprocess<br />(ms) | params(M) | FLOPs<br />(B) |
-| :----------------------------------------------------------: | :--------------------------: | :------------------: | :-----------------: | :-------------------: | :-------: | :------------: |
-| [cubic100-v8n](https://www.youtube.com/watch?v=XrV9wmnmguc&list=PLGZ6M30GmbVM7x_OCORl0q7Z4LuDY4KiY&index=1) |            0.927             |         1.6          |        10.1         |          3.3          |    3.2    |      8.7       |
-| [cubic100-v8s](https://www.youtube.com/watch?v=stGOMXj_bpk&list=PLGZ6M30GmbVM7x_OCORl0q7Z4LuDY4KiY&index=2) |            0.937             |         1.8          |        11.3         |          3.2          |   11.2    |      28.6      |
-| [cubic100-v8m](https://www.youtube.com/watch?v=ShZzQ32Dk94&list=PLGZ6M30GmbVM7x_OCORl0q7Z4LuDY4KiY&index=3) |            0.944             |         1.6          |        14.4         |          3.2          |   25.9    |      78.9      |
-|                         cubic100-v8l                         |            0.943             |         2.2          |        16.9         |          3.5          |   43.7    |     165.2      |
-|                         cubic100-v8x                         |            0.919             |         2.3          |        19.4         |          3.1          |   68.2    |     257.8      |
+|                            Model                             | mAP<sup>val</sup><br />50-95 | preprocess<br />(ms) | inference<br />(ms) | postprocess<br />(ms) | params<br />(M) | FLOPs<br />(B) |
+| :----------------------------------------------------------: | :--------------------------: | :------------------: | :-----------------: | :-------------------: | :-------------: | :------------: |
+| [cubic100-v8n](https://www.youtube.com/watch?v=XrV9wmnmguc&list=PLGZ6M30GmbVM7x_OCORl0q7Z4LuDY4KiY&index=1) |            0.927             |         1.6          |        10.1         |          3.3          |       3.2       |      8.7       |
+| [cubic100-v8s](https://www.youtube.com/watch?v=stGOMXj_bpk&list=PLGZ6M30GmbVM7x_OCORl0q7Z4LuDY4KiY&index=2) |            0.937             |         1.8          |        11.3         |          3.2          |      11.2       |      28.6      |
+| [cubic100-v8m](https://www.youtube.com/watch?v=ShZzQ32Dk94&list=PLGZ6M30GmbVM7x_OCORl0q7Z4LuDY4KiY&index=3) |            0.944             |         1.6          |        14.4         |          3.2          |      25.9       |      78.9      |
+|                         cubic100-v8l                         |            0.943             |         2.2          |        16.9         |          3.5          |      43.7       |     165.2      |
+|                         cubic100-v8x                         |            0.919             |         2.3          |        19.4         |          3.1          |      68.2       |     257.8      |
 
-##### 
