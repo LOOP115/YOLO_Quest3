@@ -90,6 +90,7 @@
 | yolov8s | Cubic100 | 100    | 640  | [cubic100-v8s](models/runs/detect/cubic100-v8s) |
 | yolov8m | Cubic100 | 100    | 640  | [cubic100-v8m](models/runs/detect/cubic100-v8m) |
 | yolov8l | Cubic100 | 100    | 640  | [cubic100-v8l](models/runs/detect/cubic100-v8l) |
+| yolov8x | Cubic100 | 100    | 640  | [cubic100-v8x](models/runs/detect/cubic100-v8x) |
 
 
 
@@ -108,4 +109,4 @@
 | Model        | size<br />(pixels) | mAP<sup>val</sup><br />50-95 | preprocess<br />(ms) | inference<br />(ms) | postprocess<br />(ms) | params(M) | FLOPs<br />(B) |
 | ------------ | ------------------ | ---------------------------- | -------------------- | ------------------- | --------------------- | --------- | -------------- |
 | cubic100-v8l | 640                | 0.943                        | 0.1                  | 3.2                 | 0.5                   | 43.7      | 165.2          |
-|              |                    |                              |                      |                     |                       |           |                |
+| cubic100-v8x | 640                | 0.925                        | 0.1                  | 10.7                | 0.8                   | 68.2      | 257.8          |
