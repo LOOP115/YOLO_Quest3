@@ -5,11 +5,9 @@ temp
 datasets
 datasets_raw
 
-models/yolov8n.pt
-models/yolov8s.pt
-models/yolov8m.pt
-models/yolov8l.pt
-models/yolov8x.pt
+# pretrained models
+models/*.pt
 
-models/runs/detect/cubic100-v8l/weights
-models/runs/detect/cubic100-v8x/weights
+# large models
+models/custom/cubic100-v8l.pt
+models/custom/cubic100-v8x.pt

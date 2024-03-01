@@ -5,10 +5,10 @@ from ultralytics import YOLO
 
 # Load a model
 version = "cubic100-v8m"
-model = YOLO(f"runs/detect/{version}/weights/best.pt")
+model = YOLO(f"custom/{version}.pt")
 
 # Run batched inference on a list of images
-path_raw = "../datasets_raw/EVABlocks/cube/cube"
+path_raw = "../datasets_raw/EVABlocks/Cubic100_raw/cube"
 results = model([path_raw + "100.jpg"])  # return a list of Results objects
 
 # Process results list

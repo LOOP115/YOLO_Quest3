@@ -7,7 +7,7 @@ data_yaml = "../datasets/Cubic100/data.yaml"  # path to the data.yaml file
 
 # Load a model
 version = "cubic100-v8m"
-model = YOLO(f"runs/detect/{version}/weights/best.pt")
+model = YOLO(f"custom/{version}.pt")
 
 if __name__ == '__main__':
     print(f"Load {version}")
