@@ -1,6 +1,6 @@
 # Real-time XR Object Detection
 
-
+<br>
 
 ## **Casting Meta Quest 3 View**
 
@@ -22,7 +22,7 @@
   - Resolution: 1280 &times; 1280
   - FPS: 30
 
-
+<br>
 
 ## [YOLOv8](https://docs.ultralytics.com/)
 
@@ -38,8 +38,6 @@
   - [How to Train YOLOv8 Object Detection on a Custom Dataset](https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb)
 - [YOLOv8 Models](https://docs.ultralytics.com/models/yolov8/#overview)
 
-
-
 ### Installation
 
 * Install [Anaconda](https://www.anaconda.com/download)
@@ -49,7 +47,7 @@
   * `conda install -c pytorch -c nvidia -c conda-forge pytorch torchvision pytorch-cuda=11.8 ultralytics`
   * If stuck at solving environment, try `conda config --set channel_priority strict`
 
-
+<br>
 
 ## [Dataset](datasets_zip)
 
