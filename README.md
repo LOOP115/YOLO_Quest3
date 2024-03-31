@@ -1,4 +1,6 @@
-# Real-time XR Object Detection
+# YOLOv8_Quest3
+
+This project utilises the cameras of Quest 3 to identify the shapes and colours of a set of EVA blocks using YOLOv8.
 
 <br>
 
