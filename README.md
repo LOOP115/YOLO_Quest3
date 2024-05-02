@@ -1,4 +1,4 @@
-# YOLO on Quest3
+# YOLO on Quest 3
 
 This project utilises the cameras of Quest 3 to identify the shapes and colours of a set of EVA blocks using YOLOv8.
 
