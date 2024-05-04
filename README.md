@@ -106,3 +106,8 @@ This project utilises the cameras of Quest 3 to identify the shapes and colours 
 |                         cubic100-v8l                         |            0.943             |         2.2          |        16.9         |          3.5          |      43.7       |     165.2      |
 |                         cubic100-v8x                         |            0.919             |         2.3          |        19.4         |          3.1          |      68.2       |     257.8      |
 
+<br>
+
+## License
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+
