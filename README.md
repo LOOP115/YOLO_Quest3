@@ -6,7 +6,7 @@ This project utilises the cameras of Quest 3 to identify the shapes and colours 
 
 ## **Casting Meta Quest 3 View**
 
-- Developer Hub - Beta Cast 2.0
+- [Meta Quest Developer Hub](https://developer.oculus.com/meta-quest-developer-hub/) - Beta Cast 2.0
   - Original (1:1)
   - Left Eye
 
